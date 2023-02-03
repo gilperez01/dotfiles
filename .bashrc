@@ -9,7 +9,7 @@
 
 # useful: http://tldp.org/LDP/abs/html/sample-bashrc.html
 
-# Contact: Fernando Pérez <fdo.perez@gmail.com>
+# Contact: Gilberto Perezalonso <gilperezalonso@gmail.com>
 
 ############################################################################
 # Source global definitions
@@ -38,7 +38,7 @@ fi
 # My usual login name on most machines.  This file is set to display any login
 # that is NOT this one in red (root, when I log into machines with an atypical
 # login, etc.).
-export MYLOGIN="fperez"
+export MYLOGIN="gilperez01"
 
 ############################################################################
 #
@@ -156,7 +156,7 @@ elif [[ "$OSTYPE" == "darwin"* ]]; then
     alias emacsapp='open -a /Applications/Emacs.app/'
     alias zoom='echo "https://berkeley.zoom.us/my/fperez" | pbcopy'
     alias zoom2='echo "https://lbnl.zoom.us/my/fperez" | pbcopy'
-    alias email='echo "fernando.perez@berkeley.edu" | pbcopy'
+    alias email='echo "gperezalonso@berkeley.edu" | pbcopy'
     alias orcid='echo 0000-0002-1725-9815 | pbcopy'
 else
     echo "No OS-specific aliases, OS unknown.";
